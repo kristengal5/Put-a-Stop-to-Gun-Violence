@@ -1,0 +1,165 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin-top: 5px;
+   padding: 0px;
+}
+
+body {
+ background-image: url("assets/black.jpeg"); 
+}
+.nav{
+  font-family: 'Koulen', display;
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+  color: #831100;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item{
+  flex-basis: 100%;
+  margin: 1%
+}
+
+@media screen and (max-width: 850px){
+  .flex-container{
+    flex-wrap: wrap;
+  }
+  header{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  main{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+.maintext{
+  font-family: 'Koulen', display;
+  font-size: 20px;
+  color: white;
+  padding-left: 5px;
+  text-align: center;
+}
+.titlenorm{
+  font-family: 'Koulen', display;
+  font-size: 35px;
+  color: white;
+  padding-left: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  height: 300px;
+}
+a.colored:hover{
+  background-color: #FF7777;
+}
+.box1{
+  background-color: #FF7777;
+}
+.box2{
+  background-color: #831100;
+  height: 700px;
+  margin-bottom: 30px;
+}
+#masses{
+  text-align: center;
+}
+
+.maintext a.colored:hover{
+  background-color: #831100;
+}
+
+#myText{
+  color: black;
+}
+#message{
+  font-family: 'Koulen', display;
+  font-size: 20px;
+  color: white;
+  padding-left: 5px;
+  text-align: center;
+}
+.maintext a.colored{
+  text-decoration: none;
+  color: #FF7777;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.title{
+  color: #FF7777;
+  font-family: 'Koulen', display;
+  font-size: 30px;
+}
+.differentcolor{
+  color: #FF7777;
+}
+.spacer{
+  height: 30px;
+}
+
+#different{
+  font-size: 59px;
+  margin-top: -30px;
+}
+.smaller{
+  font-size: 9px;
+  font-kerning: 7px;
+  letter-spacing: 2px;
+  color: white;
+  margin-top: -5px;
+  font-family: 'Koulen', display;
+}
+
+
+#fact{
+  font-size: 12px;
+  font-kerning: 7px;
+  letter-spacing: 2px;
+  color: white;
+  margin-top: -5px;
+  font-family: 'Koulen', display;
+  text-align: center;
+  padding-top: 20px;
+}
+#myButton{
+  font-family: 'Koulen', display;
+  padding: 10px;
+  text-align: center;
+  background-color: #FF7777;
+  font-color: white;
+  margin-left: 42%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#button{
+  font-family: 'Koulen', display;
+  padding: 10px;
+  text-align: center;
+  background-color: #FF7777;
+  font-color: white;
+  
+}
+.messages{
+  text-align: center;
+}
+
+.colorful{
+  height: 100px;
+  margin-left: 25%;
+  width: 700px;
+  background-color: #831100;
+}
